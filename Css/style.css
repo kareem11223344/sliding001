@@ -1,0 +1,124 @@
+.reviews{
+    background-color: gray;
+    width: 50%;
+
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+}
+p{
+    font-size: 20px;
+}
+.person img{
+    width: 70%;
+    height: 50%;
+    border-radius: 50%;
+    border: 2px solid#000;
+}
+.person{ 
+    width: 35%;
+    margin: auto;
+    align-items: center;
+}
+
+.btn{       
+    position: relative;
+    bottom: 70px;
+}
+.btn button{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 40px;
+    padding: 5px;
+    border: 2px solid #000;
+    border-radius: 7px;
+    color: red;
+    background-color: #333;
+    cursor: pointer;
+}
+.btn button:hover{
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+
+/* ========== */
+#addNewBtn{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid#000;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#addNewBtn:hover{
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.overlay{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 30%;
+    height: 400px;
+    position: fixed;
+    bottom: 50px;
+    left: 750px;
+    display: none;
+    transform: translate(-50%,-50%);
+    
+}
+.overlay .addReview{
+    position: relative;
+    top: 100px;
+
+}
+.addReview input, #massage{
+    margin: 10px;
+    padding: 7px;
+    width: 250px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid red;
+    background-color: transparent;
+    color: #fff;
+}
+textarea{
+    height: 100px;
+}
+.addReview input::placeholder, #massage::placeholder{
+    color: #888;
+}
+.sendDataBtn{
+    cursor: pointer;
+    padding: 10px;
+    width: 100px;
+    background-color: #111;
+    color: #fff;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.sendDataBtn:hover{
+    background-color: #333;
+    color: #fff;
+    transition: 0.5s;
+}
+.close{
+    position: relative;
+    bottom: 346px;
+    left: 165px;
+    font-size: 17px;
+    cursor: pointer;
+    color: #000;
+    transition: 0.5s;
+}
+.close:hover{
+    background-color: #333;
+    color: #fff;
+    transition: 0.5s;
+}
